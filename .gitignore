@@ -1,17 +1,24 @@
-*.bak
-.ipynb_checkpoints
-__pycache__
+# 虚拟环境目录（你的env文件夹，必须加！）
+env/
+venv/
+.venv/
+
+# Python 缓存文件
+__pycache__/
 *.pyc
-short.pdf
-*.aux
-*.out
-book.ipynb
-*.tex
-*.toc
-book.pdf
-book6x9.pdf
-Kalman_and_Bayesian_Filters_in_Python6x9.pdf
-Kalman_and_Bayesian_Filters_in_Python.pdf
-book_files
-tmp
-.pylint.d
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook 临时文件
+.ipynb_checkpoints/
+
+# VSCode 本地配置（可选，不想提交就加上）
+#.vscode/
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
