@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\('d:/study/Kalman-and-Bayesian-Filters-in-Python/Kalman-and-Bayesian-Filters-in-Python/00-Preface.ipynb', encoding='utf-8'\\)\\); cells=nb['cells']; print\\('total cells:', len\\(cells\\)\\); [print\\(i, c['cell_type'], len\\(''.join\\(c['source']\\)\\)\\) for i,c in enumerate\\(cells\\)]\")",
+      "Bash(python -c \"import json; nb=json.load\\(open\\('d:/study/Kalman-and-Bayesian-Filters-in-Python/Kalman-and-Bayesian-Filters-in-Python/14-Adaptive-Filtering.ipynb', encoding='utf-8'\\)\\); cells=nb['cells']; print\\('total cells:', len\\(cells\\)\\); total_chars=sum\\(len\\(''.join\\(c['source']\\) if isinstance\\(c['source'], list\\) else c['source']\\) for c in cells\\); print\\('total chars:', total_chars\\)\")"
+    ]
+  }
+}
